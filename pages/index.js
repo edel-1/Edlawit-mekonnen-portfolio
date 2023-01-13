@@ -15,6 +15,17 @@ export default function Home() {
         <p className="description">
           Scroll down to SEE my projects
         </p>
+        <form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
       </main>
 
       <Footer />
